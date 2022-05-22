@@ -1,0 +1,101 @@
+body {
+    font-family: SimHei, SimHei, SimHei;
+    margin: 0;
+   background: url(luna.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 30px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 200px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2247;
+    font-size: 45px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #669;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a669;
+    font-weight: 669;
+}
+.link:hover{
+     color: SimHei;
+}
+@media(min-width:700px)
+{
+    .formulario{
+        margin: auto;
+        width: 480px;
+        margin-top: 80px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
